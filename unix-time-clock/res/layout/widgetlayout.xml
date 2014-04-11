@@ -4,12 +4,14 @@
     android:layout_height="match_parent">
     
     <FrameLayout
+        android:id="@+id/graybox"
         android:background="@drawable/graybox"
         android:layout_width="match_parent"
     	android:layout_height="match_parent"
     	android:layout_marginBottom="7dp">
     
 	    <LinearLayout
+	        android:id="@+id/whitebox"
 	        android:layout_width="match_parent"
 		    android:layout_height="match_parent"
 		    android:orientation="horizontal"
