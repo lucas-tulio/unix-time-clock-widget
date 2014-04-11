@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <FrameLayout
+        android:background="@drawable/graybox"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_marginBottom="7dp">
+        
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:background="@drawable/whitebox"
+	    android:gravity="center"
+	    android:layout_margin="6dp">
+		
+		<TextView
+			android:id="@+id/clockTextView"
+			android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+			android:text="1337"
+			android:fontFamily="sans-serif-thin"
+			android:textSize="40sp"
+            android:textColor="#757575"
+            android:layout_gravity="center"/>
+        
+    </LinearLayout>
+    
+    </FrameLayout>
+    
+
+</FrameLayout>
