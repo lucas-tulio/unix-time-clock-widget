@@ -17,6 +17,7 @@
 		    <intent-filter>
 		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 		        <action android:name="com.lucasdnd.unixtimeclockwidget.CLOCK_UPDATE" />
+		        <action android:name="com.lucasdnd.unixtimeclockwidget.SWITCH_FORMAT" />
 		    </intent-filter>
 		    <meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetproviderinfo" />
 		</receiver>
